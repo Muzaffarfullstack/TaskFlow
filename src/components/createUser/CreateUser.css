@@ -1,0 +1,65 @@
+.create-container{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    width: 1060px;
+    margin: 30px 0 0 10px;
+}
+.create-container h1{
+    margin-left: 15px;
+}
+.create-container span{
+    margin-right: 10px;
+    color: rgb(162, 104, 217);
+    font-weight: 400;
+}
+.user-form{
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    display: flex;
+}
+.create-container input,
+.create-container .first-select,
+.create-container .second-select{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.create-container input:focus,
+.create-container .first-select:focus,
+.create-container .second-select:focus{
+    outline: none;
+    border: 2px solid rgb(138, 61, 210);
+    box-shadow: 0 0 5px rgba(126, 34, 206, 0.5);
+    max-height: 50px;
+}
+.create-container input{
+    width: 480px;
+    border-color: #e5e7eb;
+}
+.create-container .first-select{
+    width: 210px;
+    transition: all 0.3s ease;
+}
+.create-container .second-select{
+    width: 140px;
+}
+.create-container button{
+    width: 160px;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    transition: background .5s;
+    background: linear-gradient(270deg, #7e22ce, #0e7490);
+    background-size: 200% 100%;
+    background-position: left;
+    transition: background-position 0.5s ease;
+}
+.create-container button:hover{
+    background-position: right;
+}

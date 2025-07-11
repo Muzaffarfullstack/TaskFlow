@@ -1,0 +1,86 @@
+.task-item {
+  background: #f9fafb;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-title {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* Priority colors */
+.priority.low-priority {
+  background-color: #dcfce7;
+  color: #166534;
+}
+.priority.medium-priority {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+.priority.high-priority {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+/* Category colors */
+.category.personal {
+  background-color: #e0f2fe;
+  color: #1e3a8a;
+}
+.category.work {
+  background-color: #ede9fe;
+  color: #5b21b6;
+}
+.category.health {
+  background-color: #fef2f2;
+  color: #9f1239;
+}
+.category.learning {
+  background-color: #ecfdf5;
+  color: #064e3b;
+}
+.category.shopping {
+  background-color: #fefce8;
+  color: #854d0e;
+}
+.category.finance {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+.category.travel {
+  background-color: #f0fdf4;
+  color: #166534;
+}
+.category.other {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #dc2626;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}

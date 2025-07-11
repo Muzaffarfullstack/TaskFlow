@@ -1,0 +1,21 @@
+.task-component{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.task-info{
+    text-align: center;
+    padding: 10px;
+}
+.task-info i{
+    margin-top: 20px;
+    border: 2px solid;
+    padding: 25px;
+    border-radius: 50%;
+    background: #f3e8ff;
+    color: rgb(147, 51, 234);
+    font-size: 30px;
+}
+.task-info p{
+    color: #6b7280;
+}
